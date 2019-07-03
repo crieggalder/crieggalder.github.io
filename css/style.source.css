@@ -1,7 +1,33 @@
 @media (min-width: 576px) {
-  .mt-big {
+  .mt-big-desktop {
     margin-top: 4rem;
   }
+}
+
+@media (max-width: 576px) {
+  .mt-big-mobile {
+    margin-top: 10rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #circles-form-mobile {
+  display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #circles-form-desktop {
+  display: none;
+  }
+}
+
+#circles-form-mobile {
+  margin-bottom: 8rem;
+}
+
+.mt-big {
+  margin-top: 4rem;
 }
 
 .mb-big {
@@ -58,6 +84,12 @@ h2 {
   .image-full {
   padding: 0 20%;
   margin-top: -100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-full {
+  margin-top: -50px;
   }
 }
 
