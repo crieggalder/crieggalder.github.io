@@ -35,23 +35,25 @@
 }
 
 body {
-  font-family: "Lato";
+  font-family: "Source Sans Pro";
   color: #333;
   background-color: #fdfdfd
 }
 
 h1 {
-  font-family: "Comfortaa";
+  font-family: "Lexend Deca";
   font-weight: 400;
-  font-size: 44px;
+  font-size: 36px;
 }
 
 h2 {
+  font-family: "Lexend Deca";
+  font-size: 30px;
   font-weight: 400;
 }
 
 .benefit-list {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -59,8 +61,7 @@ h2 {
   vertical-align: middle;
   display: flex;
   align-items: center;
-  height: 3rem;
-  margin: 1.5rem 0;
+  margin: 24px 0;
 }
 
 .benefit-img {
